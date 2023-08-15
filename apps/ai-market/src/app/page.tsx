@@ -1,9 +1,11 @@
 import Image from "next/image";
 
+import HeroSection from "@/components/hero-lan";
+
 export default function Home() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <HeroSection />
     </div>
   );
 }
