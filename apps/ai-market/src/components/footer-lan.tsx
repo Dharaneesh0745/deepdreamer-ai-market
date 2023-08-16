@@ -20,7 +20,7 @@ const Footer = () => {
             </svg>
             <span className="ml-3 text-xl">Deep Dreamer</span>
           </a>
-          <p className="mt-2 text-sm text-gray-500">
+          <p className="mt-2 text-sm text-neon-blue">
             AI Market - Services as lending our own AI & ML products, Custom AI
             Dev (Playground Service), Our API`s, Source code store
           </p>
@@ -104,9 +104,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-gray-100">
+      <div className="bg-neon-blue">
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-          <p className="text-gray-500 text-sm text-center sm:text-left">
+          <p className="text-orange-500 font-bold text-base text-center sm:text-left">
             © 2023 Deep Dreamer —
             <a
               href="https://twitter.com/knyttneve"
