@@ -23,6 +23,7 @@ const About = () => {
                   width={85}
                   className="object-cover rounded-full"
                   src="/me.jpg"
+                  layout="responsive"
                   alt="dev"
                 />
               </div>
