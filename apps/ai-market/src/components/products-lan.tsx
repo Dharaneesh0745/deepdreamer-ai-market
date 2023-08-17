@@ -29,7 +29,7 @@ const Products = () => {
               <h2 className="text-xs text-neon-blue font-medium title-font mb-4">
                 Deep Dreamer
               </h2>
-              <p className="leading-relaxed text-base text-gray-500">
+              <p className="leading-relaxed text-base text-gray-400">
                 Our own products Image generation, Video generation, Text
                 generation, Code generation. Well it is a SaaS platform and also
                 the data’s were fetched from our own datasets & API’s.
@@ -55,7 +55,7 @@ const Products = () => {
               <h2 className="text-xs text-neon-blue font-medium title-font mb-4">
                 Deep Dreamer
               </h2>
-              <p className="leading-relaxed text-base text-gray-500">
+              <p className="leading-relaxed text-base text-gray-400">
                 AI Playground provides users to develop their own AI modal in
                 our ‘Deep Dreamer’ platform. User can build a general knowledge
                 AI modal which is based on various fields.
@@ -81,7 +81,7 @@ const Products = () => {
               <h2 className="text-xs text-neon-blue font-medium title-font mb-4">
                 Deep Dreamer
               </h2>
-              <p className="leading-relaxed text-base text-gray-500">
+              <p className="leading-relaxed text-base text-gray-400">
                 The API’s are completely developed by ‘Deep Dreamer’. And those
                 API’s were open source, so users can able to access our API’s
                 completely free. We had documentation also.
@@ -107,7 +107,7 @@ const Products = () => {
               <h2 className="text-xs text-neon-blue font-medium title-font mb-4">
                 Deep Dreamer
               </h2>
-              <p className="leading-relaxed text-base text-gray-500">
+              <p className="leading-relaxed text-base text-gray-400">
                 ‘Deep Dreamer’ had the store facility. User can able to buy our
                 source codes. And also we had documentation to use source codes.
                 There are some free source codes are available in our store.
