@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Products = () => {
   return (
-    <section className="text-gray-500 body-font">
+    <section className="text-gray-500 body-font" id="products">
       <div className="container px-5 py-24 mx-auto text-center">
         {" "}
         <div className="mb-20">
