@@ -2,7 +2,7 @@ import React from "react";
 
 const Newsletter: React.FC = () => {
   return (
-    <section className="text-gray-600 body-font relative">
+    <section className="text-gray-600 body-font relative" id="contact">
       <div className="absolute inset-0 bg-gray-300">
         <iframe
           width="100%"
