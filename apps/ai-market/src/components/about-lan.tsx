@@ -29,14 +29,14 @@ const About = () => {
                 <h2 className="font-bold title-font mt-4 text-orange-500 text-lg">
                   Dharaneesh Boobalan
                 </h2>
-                <div className="w-12 h-1 bg-neon-blue rounded mt-2 mb-4"></div>
+                <div className="w-12 h-1 mt-2 mb-4 bg-neon-blue rounded"></div>
                 <p className="text-base text-gray-400">
                   Flutter | Firebase (Authentication, Realtime Database, Cloud
                   Firestore, Cloud Functions) | State Management | RESTful APIs
-                  | Next.js | React.js | JavaScript | TypeScript | Styled
-                  Components | Redux | MobX | Recoil | Server-Side Rendering
-                  (SSR) | Static Site Generation (SSG) | NextAuth | Node.js |
-                  Express.js | MongoDB | MySQL | PostgreSQL | Postman API.
+                  | Next.js | React.js | JavaScript | TypeScript | Redux | MobX
+                  | Recoil | Server-Side Rendering (SSR) | Static Site
+                  Generation (SSG) | NextAuth | Node.js | Express.js | MongoDB |
+                  MySQL | PostgreSQL | Postman API.
                 </p>
               </div>
             </div>
