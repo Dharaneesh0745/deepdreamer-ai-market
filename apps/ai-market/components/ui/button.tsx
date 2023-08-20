@@ -20,6 +20,7 @@ const buttonVariants = cva(
         link: "text-primary underline-offset-4 hover:underline",
         premium:
           "bg-gradient-to-r from-sky-500 via-blue-500 to-cyan-500 text-white border-0",
+        deepdreamer: "bg-gradient-to-r from-pink-400 to-purple-500",
       },
       size: {
         default: "h-10 px-4 py-2",
