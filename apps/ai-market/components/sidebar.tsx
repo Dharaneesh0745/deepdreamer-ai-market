@@ -47,7 +47,7 @@ export const Sidebar = () => {
     },
     {
       icon: Globe,
-      href: "/",
+      href: "/playground",
       label: "Coming Soon",
       pro: false,
     },
