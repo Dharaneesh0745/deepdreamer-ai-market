@@ -15,6 +15,7 @@ import {
 import { usePathname, useRouter } from "next/navigation";
 
 import { cn } from "../lib/utils";
+import { toast } from "react-hot-toast";
 export const Sidebar = () => {
   const pathname = usePathname();
   const router = useRouter();
@@ -76,8 +77,12 @@ export const Sidebar = () => {
     },
   ];
 
-  const onNavigate = (url: string, pro: boolean) => {
-    // TODO: Check if PRO
+  const onNavigate = (url: string, pro: boolean, label: string | undefined) => {
+    if (label) {
+      toast.success(`Product ${label}`);
+    } else {
+      toast.error("Server Firewall Blocking Sandbox");
+    }
 
     return router.push(url);
   };
@@ -88,7 +93,9 @@ export const Sidebar = () => {
         <div className="space-y-2">
           {routes.map((route) => (
             <div
-              onClick={() => onNavigate(route.href, route.pro)}
+              onClick={() => {
+                onNavigate(route.href, route.pro, route.label);
+              }}
               key={route.href}
               className={cn(
                 "text-muted-foreground text-xs grout flex p-2 w-full justify-start font-medium cursor-pointer hover:text-primary hover:bg-primary/10 rounded-lg transition",
