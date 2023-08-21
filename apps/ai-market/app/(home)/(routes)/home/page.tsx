@@ -16,6 +16,8 @@ import { Card } from "../../../../components/ui/card";
 import { cn } from "../../../../lib/utils";
 import { useRouter } from "next/navigation";
 
+import { toast } from "react-hot-toast";
+
 const tools = [
   {
     label: "Text Generation",
@@ -99,7 +101,10 @@ const Homepage = () => {
       <div className="px-4 md:px-20 lg:px-32 space-y-4">
         {tools.map((tool) => (
           <Card
-            onClick={() => router.push(tool.href)}
+            onClick={() => {
+              toast.success(`Navigating to ${tool.label}`);
+              router.push(tool.href);
+            }}
             key={tool.href}
             className="p-4 bg-gradient-to-r from-pink-400 to-purple-500 border-black/5 flex items-center justify-between hover:bg-gradient-to-l hover:shadow-pink-400 transition cursor-pointer"
           >
