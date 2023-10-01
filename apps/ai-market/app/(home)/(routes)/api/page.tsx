@@ -1,12 +1,12 @@
 import React from "react";
 import { Empty } from "../../../../components/empty";
 
-const PlaygroundPage = () => {
+const Api = () => {
   return (
     <div className="">
-      <Empty label="AI Playground. (Work In Progress)" />
+      <Empty label="API Source. (Work In Progress)" />
     </div>
   );
 };
 
-export default PlaygroundPage;
+export default Api;

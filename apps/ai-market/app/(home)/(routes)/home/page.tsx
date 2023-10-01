@@ -59,28 +59,28 @@ const tools = [
     icon: PlusSquare,
     color: "text-white",
     bgcolor: "bg-cyan-300",
-    href: "/conversation",
+    href: "/dev",
   },
   {
     label: "API's Zone",
     icon: Link,
     color: "text-white",
     bgcolor: "bg-cyan-300",
-    href: "/conversation",
+    href: "/api",
   },
   {
     label: "Source code market",
     icon: ShoppingCart,
     color: "text-white",
     bgcolor: "bg-cyan-300",
-    href: "/conversation",
+    href: "/shop",
   },
   {
     label: "Settings",
     icon: Settings,
     color: "text-white",
     bgcolor: "bg-cyan-300",
-    href: "/conversation",
+    href: "/settings",
   },
 ];
 

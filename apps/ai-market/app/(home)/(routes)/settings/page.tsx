@@ -1,12 +1,12 @@
 import React from "react";
 import { Empty } from "../../../../components/empty";
 
-const PlaygroundPage = () => {
+const Settings = () => {
   return (
     <div className="">
-      <Empty label="AI Playground. (Work In Progress)" />
+      <Empty label="User Settings. (Work In Progress)" />
     </div>
   );
 };
 
-export default PlaygroundPage;
+export default Settings;
