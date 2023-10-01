@@ -54,25 +54,25 @@ export const Sidebar = () => {
     },
     {
       icon: PlusSquare,
-      href: "/",
+      href: "/dev",
       label: "Coming Soon",
       pro: true,
     },
     {
       icon: Link,
-      href: "/",
+      href: "/api",
       label: "Coming Soon",
       pro: false,
     },
     {
       icon: ShoppingCart,
-      href: "/",
+      href: "/shop",
       label: "Coming Soon",
       pro: false,
     },
     {
       icon: Settings,
-      href: "/",
+      href: "/settings",
       pro: false,
     },
   ];
